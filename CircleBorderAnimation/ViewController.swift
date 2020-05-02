@@ -8,12 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
-  @IBOutlet weak var circleView: UIView!
-  @IBOutlet weak var button: UIButton!
+  @IBOutlet private weak var circleView: AnimatableCircleView!
+  @IBOutlet private weak var button: UIButton!
 
-  @IBAction func buttonTapped(_ sender: UIButton) {
-    
+  @IBAction private func buttonTapped(_ sender: UIButton) {
+    self.circleView.startAnimating()
   }
 }

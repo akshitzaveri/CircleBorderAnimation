@@ -13,6 +13,7 @@
 		BF31003E245D497000F6310F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF31003C245D497000F6310F /* Main.storyboard */; };
 		BF310040245D497200F6310F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF31003F245D497200F6310F /* Assets.xcassets */; };
 		BF310043245D497200F6310F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF310041245D497200F6310F /* LaunchScreen.storyboard */; };
+		BF31005B245D7F1400F6310F /* AnimatableCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF31005A245D7F1400F6310F /* AnimatableCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BF31003F245D497200F6310F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF310042245D497200F6310F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF310044245D497200F6310F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF31005A245D7F1400F6310F /* AnimatableCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				BF310036245D497000F6310F /* AppDelegate.swift */,
 				BF310038245D497000F6310F /* SceneDelegate.swift */,
 				BF31003A245D497000F6310F /* ViewController.swift */,
+				BF31005A245D7F1400F6310F /* AnimatableCircleView.swift */,
 				BF31003C245D497000F6310F /* Main.storyboard */,
 				BF31003F245D497200F6310F /* Assets.xcassets */,
 				BF310041245D497200F6310F /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF31005B245D7F1400F6310F /* AnimatableCircleView.swift in Sources */,
 				BF31003B245D497000F6310F /* ViewController.swift in Sources */,
 				BF310037245D497000F6310F /* AppDelegate.swift in Sources */,
 				BF310039245D497000F6310F /* SceneDelegate.swift in Sources */,
